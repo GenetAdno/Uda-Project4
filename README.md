@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/GenetAdno/Uda-Project4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/GenetAdno/Uda-Project4/tree/main)
+
 ## Project Overview
 In this project, I have working on operationalizing microservices by deploying a machine learning inference API using docker and kubernetes.
   
