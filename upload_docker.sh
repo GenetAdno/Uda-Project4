@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=genetadno/housing-price-predictor
+dockerpath= genetadno/ml-predictor
 # Step 2:  
 # Authenticate & tag
 echo MYga21@12345 docker login --username genetadno --password-stdin
