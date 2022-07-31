@@ -31,3 +31,29 @@ In this project you will:
     /.devops/Scripts/activate
     make install
     python app.py
+
+ 
+ ##  Running with Docker
+
+First you have to make sure that you have docker installed and running, then run the run_docker.sh bash script as below:
+
+./run_docker.sh
+
+If it throws a permission denied error, change the mode to executable using the command below
+
+chmod +x run_docker.sh
+
+## Running with Kubernetes
+
+First you have to make sure that Kubernetes and kubectl command line utility are installed and well configured. Then, run the command below:
+
+./run_kubernetes.sh
+
+### Making Predictions
+Once the service running, then you can make a call to the endpoint features data for which prediction is to be made. 
+ ./make_prediction.sh
+
+
+ ### CI/CD
+
+This project integrates CircleCI for CI/CD.
