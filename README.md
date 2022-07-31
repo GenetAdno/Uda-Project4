@@ -15,7 +15,7 @@ In this project you will:
 ## Setup the Environment
 
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
-```bash
+   bash
  For Linux
 
     python3 -m venv ~/.devops
@@ -32,7 +32,6 @@ In this project you will:
     make install
     python app.py
 
- 
  ##  Running with Docker
 
 First you have to make sure that you have docker installed and running, then run the run_docker.sh bash script as below:
